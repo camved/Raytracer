@@ -129,29 +129,53 @@ RayTracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
 .PHONY : RayTracer/fast
 
-src/main.o: src/main.cc.o
-.PHONY : src/main.o
+src/test.o: src/test.cpp.o
+.PHONY : src/test.o
 
 # target to build an object file
-src/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/main.cc.o
-.PHONY : src/main.cc.o
+src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
 
-src/main.i: src/main.cc.i
-.PHONY : src/main.i
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
 
 # target to preprocess a source file
-src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/main.cc.i
-.PHONY : src/main.cc.i
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
 
-src/main.s: src/main.cc.s
-.PHONY : src/main.s
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
 
 # target to generate assembly for a file
-src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/main.cc.s
-.PHONY : src/main.cc.s
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
+src/vec3.o: src/vec3.cc.o
+.PHONY : src/vec3.o
+
+# target to build an object file
+src/vec3.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/vec3.cc.o
+.PHONY : src/vec3.cc.o
+
+src/vec3.i: src/vec3.cc.i
+.PHONY : src/vec3.i
+
+# target to preprocess a source file
+src/vec3.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/vec3.cc.i
+.PHONY : src/vec3.cc.i
+
+src/vec3.s: src/vec3.cc.s
+.PHONY : src/vec3.s
+
+# target to generate assembly for a file
+src/vec3.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/src/vec3.cc.s
+.PHONY : src/vec3.cc.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RayTracer"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
+	@echo "... src/vec3.o"
+	@echo "... src/vec3.i"
+	@echo "... src/vec3.s"
 .PHONY : help
 
 

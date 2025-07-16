@@ -1,4 +1,5 @@
 #include <iostream>
+#include "vec3.h"
 
 int main() {
 
@@ -24,6 +25,9 @@ int main() {
             std::cout << ir << ' ' << ig << ' ' << ib << '\n';
         }
     }
+
+
+    
 }
 
 
