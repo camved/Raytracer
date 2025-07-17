@@ -1,0 +1,3 @@
+/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles/RayTracer.dir
+/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles/edit_cache.dir
+/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles/rebuild_cache.dir

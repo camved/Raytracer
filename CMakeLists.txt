@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
-add_executable(RayTracer src/test.cpp src/vec3.cc)
+add_executable(RayTracer src/test.cpp src/vec3.cc src/ray.cc)

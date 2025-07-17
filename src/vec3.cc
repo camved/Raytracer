@@ -37,7 +37,3 @@ bool almost_equal(double a, double b) {
     return std::abs(a - b) <  eps;
 };
 
-std::ostream& operator<<(std::ostream& out, const vec3& v) {
-    out << "(" << v.x << ", " << v.y << ", " << v.z << ")";
-    return out;
-}
