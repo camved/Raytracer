@@ -23,7 +23,6 @@ double vec3::length() const{
     return std::sqrt(x*x+y*y+z*z);
 }
 
-#include <cmath>
 
 bool operator==(const vec3& a, const vec3& b) {
     double epsilon = 1e-6;
@@ -36,4 +35,10 @@ bool almost_equal(double a, double b) {
     double eps = 1e-6;
     return std::abs(a - b) <  eps;
 };
+
+
+std::ostream& operator<<(std::ostream& out, const vec3& v) {
+    out << "(" << v.x << ", " << v.y << ", " << v.z << ")";
+    return out;
+}
 
