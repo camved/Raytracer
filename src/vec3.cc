@@ -36,6 +36,9 @@ bool almost_equal(double a, double b) {
     return std::abs(a - b) <  eps;
 };
 
+float vec3::dot(const vec3& v) const {
+    return x * v.x + y * v.y + z * v.z;
+}
 
 std::ostream& operator<<(std::ostream& out, const vec3& v) {
     out << "(" << v.x << ", " << v.y << ", " << v.z << ")";

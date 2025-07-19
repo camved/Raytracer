@@ -44,4 +44,6 @@ int main(){
     assert(ray1.point_at(t2) == vec3(3.0, 6.0, 7.0));
     std::cout << "Test point_at rayons ok" << std::endl;
 
+    assert(hit_Sphere(ray1, 5.0f, o1));
+    std::cout<< "Le rayon est en contact avec la sphere"<< std::endl;
 };

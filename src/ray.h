@@ -25,6 +25,9 @@ class ray {
 };
 
 bool areRaysEqual(const ray& r1, const ray& r2);
+
 std::ostream& operator<<(std::ostream& out, const ray& r); //print
+
+bool hit_Sphere(const ray& r_circle, float rayon, vec3& ori_sphere);
 
 #endif

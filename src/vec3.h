@@ -24,10 +24,9 @@ class vec3 {
     vec3 operator-(const vec3& v) const; //soustraction
     vec3 operator*(double t) const; //multiplication
     double length() const; //norme du vecteur
+    float dot(const vec3& v1) const;
     
 };
-
-
 
 
 bool operator==(const vec3& a, const vec3& b);
