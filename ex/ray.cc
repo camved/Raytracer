@@ -37,4 +37,18 @@ bool hit_Sphere(const ray& r1, float r_circle, vec3& ori_sphere ){
 
     float delta = (b*b) - (4*a*c);
     return (delta >= 0);
-}
+};
+
+// vec3 intersection_point(const ray& r1, float r_circle, vec3& ori_sphere ){
+//     vec3 oc = r1.origin -ori_sphere;
+//     float a = r1.direction.dot(r1.direction);
+//     float b = 2* oc.dot(r1.direction);
+//     float c = oc.dot(oc) - (r_circle*r_circle);
+//     float delta = (b*b) - (4*a*c);
+
+//     if(delta<0) 
+    
+
+//     return 
+// }
+

@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/camille/Documents/Experiences/Raytracer/src/couleur.cc" "CMakeFiles/RayTracer.dir/couleur.cc.o" "gcc" "CMakeFiles/RayTracer.dir/couleur.cc.o.d"
+  "/home/camille/Documents/Experiences/Raytracer/src/main.cc" "CMakeFiles/RayTracer.dir/main.cc.o" "gcc" "CMakeFiles/RayTracer.dir/main.cc.o.d"
   "/home/camille/Documents/Experiences/Raytracer/src/ray.cc" "CMakeFiles/RayTracer.dir/ray.cc.o" "gcc" "CMakeFiles/RayTracer.dir/ray.cc.o.d"
-  "/home/camille/Documents/Experiences/Raytracer/src/test.cpp" "CMakeFiles/RayTracer.dir/test.cpp.o" "gcc" "CMakeFiles/RayTracer.dir/test.cpp.o.d"
   "/home/camille/Documents/Experiences/Raytracer/src/vec3.cc" "CMakeFiles/RayTracer.dir/vec3.cc.o" "gcc" "CMakeFiles/RayTracer.dir/vec3.cc.o.d"
   )
 
