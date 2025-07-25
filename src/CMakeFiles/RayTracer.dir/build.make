@@ -69,28 +69,28 @@ include CMakeFiles/RayTracer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RayTracer.dir/flags.make
 
-CMakeFiles/RayTracer.dir/main.cc.o: CMakeFiles/RayTracer.dir/flags.make
-CMakeFiles/RayTracer.dir/main.cc.o: main.cc
-CMakeFiles/RayTracer.dir/main.cc.o: CMakeFiles/RayTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracer.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracer.dir/main.cc.o -MF CMakeFiles/RayTracer.dir/main.cc.o.d -o CMakeFiles/RayTracer.dir/main.cc.o -c /home/camille/Documents/Experiences/Raytracer/src/main.cc
+CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o: CMakeFiles/RayTracer.dir/flags.make
+CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o: Tests/test_ray.cpp
+CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o: CMakeFiles/RayTracer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o -MF CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o.d -o CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o -c /home/camille/Documents/Experiences/Raytracer/src/Tests/test_ray.cpp
 
-CMakeFiles/RayTracer.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracer.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/camille/Documents/Experiences/Raytracer/src/main.cc > CMakeFiles/RayTracer.dir/main.cc.i
+CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/camille/Documents/Experiences/Raytracer/src/Tests/test_ray.cpp > CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.i
 
-CMakeFiles/RayTracer.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracer.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/camille/Documents/Experiences/Raytracer/src/main.cc -o CMakeFiles/RayTracer.dir/main.cc.s
+CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/camille/Documents/Experiences/Raytracer/src/Tests/test_ray.cpp -o CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.s
 
 # Object files for target RayTracer
 RayTracer_OBJECTS = \
-"CMakeFiles/RayTracer.dir/main.cc.o"
+"CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o"
 
 # External object files for target RayTracer
 RayTracer_EXTERNAL_OBJECTS =
 
-RayTracer: CMakeFiles/RayTracer.dir/main.cc.o
+RayTracer: CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o
 RayTracer: CMakeFiles/RayTracer.dir/build.make
 RayTracer: CMakeFiles/RayTracer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/camille/Documents/Experiences/Raytracer/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RayTracer"

@@ -90,12 +90,13 @@ inline vec3 unit_vector(const vec3& v) {
     return v / v.length();
 }
 
-bool operator==(const vec3& a, const vec3& b) {
+inline bool operator==(const vec3& a, const vec3& b) {  // ← inline ajouté
     double epsilon = 1e-6;
-    return std::abs(a.e[0] - b.e[0]) < epsilon 
-        && std::abs(a.e[1] - b.e[1]) < epsilon 
+    return std::abs(a.e[0] - b.e[0]) < epsilon  // ← std::abs
+        && std::abs(a.e[1] - b.e[1]) < epsilon
         && std::abs(a.e[2] - b.e[2]) < epsilon;
 }
+
 
 
 #endif

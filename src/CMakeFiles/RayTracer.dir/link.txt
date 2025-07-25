@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/RayTracer.dir/main.cc.o -o RayTracer 
+/usr/bin/c++ CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o -o RayTracer 

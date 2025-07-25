@@ -129,29 +129,29 @@ RayTracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
 .PHONY : RayTracer/fast
 
-main.o: main.cc.o
-.PHONY : main.o
+Tests/test_ray.o: Tests/test_ray.cpp.o
+.PHONY : Tests/test_ray.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cc.o
-.PHONY : main.cc.o
+Tests/test_ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o
+.PHONY : Tests/test_ray.cpp.o
 
-main.i: main.cc.i
-.PHONY : main.i
+Tests/test_ray.i: Tests/test_ray.cpp.i
+.PHONY : Tests/test_ray.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cc.i
-.PHONY : main.cc.i
+Tests/test_ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.i
+.PHONY : Tests/test_ray.cpp.i
 
-main.s: main.cc.s
-.PHONY : main.s
+Tests/test_ray.s: Tests/test_ray.cpp.s
+.PHONY : Tests/test_ray.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cc.s
-.PHONY : main.cc.s
+Tests/test_ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.s
+.PHONY : Tests/test_ray.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RayTracer"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Tests/test_ray.o"
+	@echo "... Tests/test_ray.i"
+	@echo "... Tests/test_ray.s"
 .PHONY : help
 
 
