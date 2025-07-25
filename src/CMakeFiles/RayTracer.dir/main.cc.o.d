@@ -1,7 +1,8 @@
-CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o: \
- /home/camille/Documents/Experiences/Raytracer/src/Tests/test_ray.cpp \
+CMakeFiles/RayTracer.dir/main.cc.o: \
+ /home/camille/Documents/Experiences/Raytracer/src/main.cc \
  /usr/include/stdc-predef.h \
- /home/camille/Documents/Experiences/Raytracer/src/Tests/../vec3.h \
+ /home/camille/Documents/Experiences/Raytracer/src/color.h \
+ /home/camille/Documents/Experiences/Raytracer/src/vec3.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -173,6 +174,4 @@ CMakeFiles/RayTracer.dir/Tests/test_ray.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/camille/Documents/Experiences/Raytracer/src/Tests/../ray.h \
- /home/camille/Documents/Experiences/Raytracer/src/Tests/../vec3.h \
- /usr/include/c++/13/cassert /usr/include/assert.h
+ /home/camille/Documents/Experiences/Raytracer/src/ray.h
