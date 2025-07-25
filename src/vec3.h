@@ -56,7 +56,7 @@ double length() const{
 using point3 = vec3;
 
 inline std::ostream& operator<<(std::ostream& out, const vec3& v) {
-    return out << "(" << v.e[0]<< ", " <<  v.e[0] <<")"; 
+    return out << "(" << v.e[0]<< ", " <<  v.e[1] << ", " <<  v.e[2] <<")"; 
 }
 
 inline vec3 operator+ (const vec3 v1, const vec3 v2){
@@ -68,7 +68,7 @@ inline vec3 operator- (const vec3 v1, const vec3 v2){
 }
 
 inline vec3 operator* (const vec3 v1, const double t){
-    return v1*t;
+    return  vec3 (v1.e[0]*t,v1.e[1]*t,v1.e[2]*t) ;
 }
 
 inline vec3 operator/(const vec3 v1,double t){ 
@@ -89,5 +89,13 @@ inline vec3 cross(const vec3& u, const vec3& v) {
 inline vec3 unit_vector(const vec3& v) {
     return v / v.length();
 }
+
+bool operator==(const vec3& a, const vec3& b) {
+    double epsilon = 1e-6;
+    return std::abs(a.e[0] - b.e[0]) < epsilon 
+        && std::abs(a.e[1] - b.e[1]) < epsilon 
+        && std::abs(a.e[2] - b.e[2]) < epsilon;
+}
+
 
 #endif

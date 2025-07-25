@@ -129,30 +129,6 @@ RayTracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
 .PHONY : RayTracer/fast
 
-couleur.o: couleur.cc.o
-.PHONY : couleur.o
-
-# target to build an object file
-couleur.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/couleur.cc.o
-.PHONY : couleur.cc.o
-
-couleur.i: couleur.cc.i
-.PHONY : couleur.i
-
-# target to preprocess a source file
-couleur.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/couleur.cc.i
-.PHONY : couleur.cc.i
-
-couleur.s: couleur.cc.s
-.PHONY : couleur.s
-
-# target to generate assembly for a file
-couleur.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/couleur.cc.s
-.PHONY : couleur.cc.s
-
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -177,54 +153,6 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cc.s
 .PHONY : main.cc.s
 
-ray.o: ray.cc.o
-.PHONY : ray.o
-
-# target to build an object file
-ray.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/ray.cc.o
-.PHONY : ray.cc.o
-
-ray.i: ray.cc.i
-.PHONY : ray.i
-
-# target to preprocess a source file
-ray.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/ray.cc.i
-.PHONY : ray.cc.i
-
-ray.s: ray.cc.s
-.PHONY : ray.s
-
-# target to generate assembly for a file
-ray.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/ray.cc.s
-.PHONY : ray.cc.s
-
-vec3.o: vec3.cc.o
-.PHONY : vec3.o
-
-# target to build an object file
-vec3.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/vec3.cc.o
-.PHONY : vec3.cc.o
-
-vec3.i: vec3.cc.i
-.PHONY : vec3.i
-
-# target to preprocess a source file
-vec3.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/vec3.cc.i
-.PHONY : vec3.cc.i
-
-vec3.s: vec3.cc.s
-.PHONY : vec3.s
-
-# target to generate assembly for a file
-vec3.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/vec3.cc.s
-.PHONY : vec3.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RayTracer"
-	@echo "... couleur.o"
-	@echo "... couleur.i"
-	@echo "... couleur.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ray.o"
-	@echo "... ray.i"
-	@echo "... ray.s"
-	@echo "... vec3.o"
-	@echo "... vec3.i"
-	@echo "... vec3.s"
 .PHONY : help
 
 
